@@ -64,3 +64,4 @@ sitemap:
 caches:
   images:
     dir: :cacheDir/images
+

@@ -1,12 +1,6 @@
----
-title: RDMT Collection Demonstrator
-summary: to be continued ... 
-date: 2026-02-16
-type: page
----
+
 <link href="https://unpkg.com/tabulator-tables@6.3.1/dist/css/tabulator.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
-<script type="text/javascript" src="https://oss.sheetjs.com/sheetjs/xlsx.full.min.js"></script>
 
   <div>
     <p>RDMTraining4NFDI Collection</p>
@@ -28,7 +22,7 @@ type: page
 	TableLoader.trigger();
 </script>
 
-  <script type="text/javascript">
+<script type="text/javascript">
 
 // filter
 
@@ -217,7 +211,7 @@ var minMaxFilterEditor = function(cell, onRendered, success, cancel, editorParam
 	];
 
 	var table = new Tabulator("#example-table", {
-	    height:400, // set height of table (optional)
+	    height:600, // set height of table (optional)
 	    data:tabledata,
 	    layout:"fitColumns",
         resizableColumnFit:true,
